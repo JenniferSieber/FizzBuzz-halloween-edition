@@ -1,0 +1,73 @@
+body {
+  color: orange;
+  background: black;
+  font-family: monospace;
+}
+header {
+  background: purple;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  color: rgb(38, 228, 38);
+}
+
+nav h3 {
+  color: orange;
+  text-align: center;
+  padding-top: 10px;
+}
+
+button:hover {
+  background: orange;
+}
+
+h2 {
+  padding-bottom: 10px;
+  margin: 0;
+}
+h3 {
+  color: rgb(38, 228, 38);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.output {
+  margin: 0 40px 0 40px;
+  border: purple dotted 3px;
+  padding-left: 20px;
+}
+
+.output h3 {
+  margin: 0;
+  font-size: 15px;
+}
+
+
+
